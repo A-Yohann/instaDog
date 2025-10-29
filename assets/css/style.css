@@ -519,6 +519,9 @@
     border-start-start-radius: var(--radius-lg);
     border-end-start-radius: var(--radius-lg);
   }
+  .rounded-tl-none {
+    border-top-left-radius: 0;
+  }
   .rounded-r-lg {
     border-top-right-radius: var(--radius-lg);
     border-bottom-right-radius: var(--radius-lg);
@@ -544,6 +547,14 @@
   .border-4 {
     border-style: var(--tw-border-style);
     border-width: 4px;
+  }
+  .border-6 {
+    border-style: var(--tw-border-style);
+    border-width: 6px;
+  }
+  .border-x-2 {
+    border-inline-style: var(--tw-border-style);
+    border-inline-width: 2px;
   }
   .border-t {
     border-top-style: var(--tw-border-style);
