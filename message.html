@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Message</title>
 </head>
 <body>
@@ -14,21 +15,17 @@
             <input type="text"placeholder="Rechercher"class="w-full h-11 rounded-2xl border border-gray-300 bg-gray-50 pl-11 pr-4 text-gray-700 placeholder-gray-500 "/>
             <img src="assets/img/loupe (1).png" alt="" class="w-5 h-5 absolute top-3 left-1 object-cover">
             
-            <span class="h-5 absolute top-3 left-4 flex items-center">
-                <svg class="w-6"> xmlns="http://www.w3.org/2000/svg"viewBox="0 0 24 24"fill="none"stroke="currentColor"stroke-width="2"stroke-linecap="round"stroke-linejoin="round"<circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
-            </span>
+            
         </div>
         
         <nav>
             <ul class="inline-flex list-none gap-x-6">
             <li class="flex items-center">
-                <svg xmlns="http://www.w3.org/2000/svg"width="30"height="30"viewBox="0 0 24 24"fill="none"stroke="currentColor"stroke-width="2"stroke-linecap="round"stroke-linejoin="round"class="lucide lucide-house-icon lucide-house"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" /><path d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+                <a href="index.html"><svg xmlns="http://www.w3.org/2000/svg"width="30"height="30"viewBox="0 0 24 24"fill="none"stroke="currentColor"stroke-width="2"stroke-linecap="round"stroke-linejoin="round"class="lucide lucide-house-icon lucide-house"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" /><path d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></a>
             </li>
 
             <li class="flex items-center">
-              <a class="relative inline-block" href=""><svg xmlns="http://www.w3.org/2000/svg"width="30"height="30"viewBox="0 0 24 24"fill="none"stroke="currentColor"stroke-width="2"stroke-linecap="round"stroke-linejoin="round"class="lucide lucide-message-square-icon lucide-message-square"><path d="M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z"/></svg>
-                <span class="absolute top-0 right-0 translate-x-[65%] -translate-y-[65%] bg-red-500 text-white w-6 h-6 rounded-full flex items-center justify-center">1</span>
-              </a>
+              <a class="relative inline-block" href="message.html"><svg xmlns="http://www.w3.org/2000/svg"width="30"height="30"viewBox="0 0 24 24"fill="none"stroke="currentColor"stroke-width="2"stroke-linecap="round"stroke-linejoin="round"class="lucide lucide-message-square-icon lucide-message-square"><path d="M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z"/></svg></a>
             </li>
 
             <li class="flex items-center">
@@ -50,9 +47,71 @@
         </nav>
       </div>
     </header>
-
-    </header>
     <main>
+        <section class="hidden md:block md:flex-1 pt-15">
+        <div class="flex items-center justify-between pb-5">
+          <div class="flex items-center gap-x-3">
+            <div class="h-25 w-25 p-1 rounded-full">
+              <img class="h-full w-full rounded-full border-white object-cover"src="assets/img/profil.jpg"alt=""/>
+            </div>
+            <div class="flex flex-col">
+              <p class="font-bold text-xl">moi</p>
+              <p class="text-gray-400 text-lg">Instadog</p>
+            </div>
+          </div>
+          <div>
+            <p class="text-blue-600 font-bold">Voir profil</p></div>
+        </div>
+
+        <div class="flex justify-between">
+          <h2 class="text-gray-400 text-xl">Suggestions pour vous</h2>
+          <p class="font-bold">Tout voir</p>
+        </div>
+
+        <div>
+          <div class="flex items-center justify-between pb-5">
+            <div class="flex items-center gap-x-3">
+              <div class="h-20 w-20 p-1 rounded-full">
+                <img class="h-full w-full rounded-full border-white object-cover"src="assets/img/dog-1.jpg"alt=""/>
+              </div>
+              <div class="flex flex-col">
+                <p class="font-bold">rex</p>
+                <p class="text-gray-400">Populaire</p>
+              </div>
+            </div>
+            <div>
+              <p class="text-blue-600 font-bold">Suivre</p></div>
+          </div>
+
+          <div class="flex items-center justify-between pb-5">
+            <div class="flex items-center gap-x-3">
+              <div class="h-20 w-20 p-1 rounded-full">
+                <img class="h-full w-full rounded-full border-white object-cover"src="assets/img/dog-2.jpg"alt=""/>
+              </div>
+              <div class="flex flex-col">
+                <p class="font-bold">doug</p>
+                <p class="text-gray-400">Suggéré</p>
+              </div>
+            </div>
+            <div>
+              <p class="text-blue-600 font-bold">Suivre</p></div>
+          </div>
+
+          <div class="flex items-center justify-between pb-5">
+            <div class="flex items-center gap-x-3">
+              <div class="h-20 w-20 p-1 rounded-full">
+                <img class="h-full w-full rounded-full border-white object-cover"src="assets/img/dog-3.jpg"alt=""/>
+              </div>
+              <div class="flex flex-col">
+                <p class="font-bold">luna</p>
+                <p class="text-gray-400">Nouveau</p>
+              </div>
+            </div>
+            <div>
+              <p class="text-blue-600 font-bold">Suivre</p></div>
+          </div>
+        </div>
+      </section>
 
     </main>
     <footer class="px-4 flex flex-col gap-y-2 py-8 md:px-15">
