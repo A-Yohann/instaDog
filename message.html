@@ -47,7 +47,7 @@
         </nav>
       </div>
     </header>
-    <main>
+    <main class="px-4 md:px-15 md:flex md:gap-8">
         <section class="hidden md:block md:flex-1 pt-15">
         <div class="flex items-center justify-between pb-5">
           <div class="flex items-center gap-x-3">
@@ -99,6 +99,80 @@
           </div>
         </div>
       </section>
+
+     <section class="pt-12 flex flex-col gap-y-5 max-w-4xl mx-auto w-full">
+
+  
+    <!-- Profil du haut -->
+    <div class="flex items-center p-4">  
+      <div class="h-10 w-10">
+        <img class="h-full w-full rounded-full object-cover" src="assets/img/dog-1.jpg" alt=""/>
+      </div>
+        <div class="flex">
+            <div class="ml-4">
+                <h2 class="font-bold">rex</h2>
+                <p class="text-gray-400">En ligne maintenant</p>
+            </div>
+            <div class="flex justify-end">
+                <img src="assets/img/info.png" alt="" class="w-5 h-5">
+            </div>
+        </div>
+    </div>
+
+    <!-- Message à gauche -->
+    <div class="flex justify-start pt-5 ml-4">
+      <div class="h-10 w-10">
+        <img class="h-full w-full rounded-full object-cover" src="assets/img/dog-1.jpg" alt=""/>
+      </div>
+      <div class="ml-4 border border-gray-300 rounded-lg p-2">
+        <p>Hello! Prêt pour la balade?</p>
+        <p class="text-sm text-gray-400">14:12</p>
+      </div>
+    </div>
+
+    <!-- Message à droite -->
+    <div class="flex justify-end pt-5">
+      <div class="mr-4 p-2 bg-blue-700 rounded-lg rounded-tr-none">
+        <p class="text-white">Toujours ! on se retrouve au parc.</p>
+        <p class="text-sm text-white">14:13 . Vu</p>
+      </div>
+      <div class="h-10 w-10 mr-2">
+        <img src="assets/img/profil.jpg" alt="" class="h-full w-full object-cover rounded-full">
+      </div>
+    </div>
+
+    <!--  Dernier message à gauche -->
+    <div class="flex justify-start items-start pt-5 ml-4">
+        <div class="h-10 w-10">
+            <img class="h-full w-full rounded-full object-cover" src="assets/img/dog-1.jpg" alt=""/>
+        </div>
+        <div class="ml-4 border border-gray-300 rounded-lg p-2">
+            <p>Parfait, j'apporte les friandises !</p>
+            <p class="text-sm text-gray-400">14:14</p>
+        </div>
+    </div>
+
+    <!-- PARTIE ENVOYER MESSAGE -->
+     <div class="flex items-center  w-full">
+        <div>
+            <img src="assets/img/image.png" alt="" class="w-5 h-5 ml-5">
+        </div>
+        <div class="ml-8">
+            <input type="text"placeholder="Message"class="flex-1 h-11 w-3xl rounded-2xl border border-gray-300 bg-gray-50 pl-4 pr-4 text-gray-700 placeholder-gray-500"/> 
+        </div>
+
+        <div class="ml-4 bg-blue-700 rounded-4xl p-2">
+            <a href="" class="text-white">Envoyer</a>
+
+        </div>
+
+     </div>
+
+</section>
+
+
+
+           
 
     </main>
     <footer class="px-4 flex flex-col gap-y-2 py-8 md:px-15">
