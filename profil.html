@@ -49,24 +49,24 @@
     </header>
     <main>
         <!-- PARTIE photo profil -->
-        <section class="flex flex-wrap p-24 justify-start items-start gap-8 border-b border-gray-300">
-                <div>
+        <section class=" md:flex-wrap p-10  md:justify-start md:items-start md:gap-8 md:border-b  md:border-gray-300 flex flex-col md:flex-row container">
+                <div class="flex justify-center pb-5 md:justify-start">
                     <img src="assets/img/profil.jpg" alt="photo de profil" class="w-32 h-32 rounded-full object-cover">
                 </div>
 
                 <!-- partie parametre -->
                 <div class="flex flex-col gap-3">
-                    <div class="flex items-center gap-4 flex-wrap">
-                        <a href="#" class="border border-gray-300 px-3 py-1 rounded-md text-sm">Modifier le profil</a>
-                        <a href="#" class="border border-gray-300 px-3 py-1 rounded-md text-sm">Voir l'archive</a>
+                    <div class="flex items-center gap-4 flex-nowrap">
+                        <a href="#" class="border border-gray-300 md:px-3 md:py-1 p-2 rounded-md text-sm">Modifier le profil</a>
+                        <a href="#" class="border border-gray-300 md:px-3 md:py-1 p-2 rounded-md text-sm">Voir l'archive</a>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#a3a3a3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-currency-icon lucide-currency"><circle cx="12" cy="12" r="8"/><line x1="3" x2="6" y1="3" y2="6"/><line x1="21" x2="18" y1="3" y2="6"/><line x1="3" x2="6" y1="21" y2="18"/><line x1="21" x2="18" y1="21" y2="18"/></svg>
                     </div>
 
                     <!-- Partie info aboonement -->
-                    <div class="flex gap-6 text-sm">
-                        <p><span class="font-bold">42</span> publications</p>
-                        <p><span class="font-bold">1 258</span> abonnés</p>
-                        <p><span class="font-bold">311</span> abonnements</p>
+                    <div class="flex gap-4 text-sm flex-nowrap">
+                        <p><span class="font-bold ">42</span> publications</p>
+                        <p><span class="font-bold ">1 258</span> abonnés</p>
+                        <p><span class="font-bold ">311</span> abonnements</p>
                     </div>
 
                     <!-- Partie info profil -->
@@ -80,10 +80,10 @@
 
         <section>
           <!-- Partie publication -->
-          <div class="flex flex-wrap justify-center gap-8 p-5">
+          <div class="flex flex-wrap justify-center gap-8 ">
               <div class="flex gap-2 justify-center">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-layout-grid-icon lucide-layout-grid"><rect width="7" height="7" x="3" y="3" rx="1"/><rect width="7" height="7" x="14" y="3" rx="1"/><rect width="7" height="7" x="14" y="14" rx="1"/><rect width="7" height="7" x="3" y="14" rx="1"/></svg>
-                <p class="font-bold border-t-2 border-black w-full">PUBLICATION</p>
+                <p class="font-bold border-t-2 border-black w-full p-3">PUBLICATION</p>
               </div>
 
               <!-- Partie reel -->
